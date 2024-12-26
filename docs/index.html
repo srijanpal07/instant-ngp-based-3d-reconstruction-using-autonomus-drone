@@ -49,13 +49,13 @@
                 <div class="col-md-4 col-md-offset-4 text-center">
                     <ul class="list-inline">
                         <li>
-                            <a href="https://srijanpal07.github.io/portfolio/assets/data/ICRA2025_Autonomous%20Drone%20for%20Dynamic%20Smoke%20Plume%20Tracking%20-%20website.pdf">
+                            <a href="https://srijanpal07.github.io/portfolio/assets/data/Instant-NGP-based%20Autonomous%203D%20Reconstruction%20Using%20Drone%20Imagery%20-%20Website.pdf">
                                 <image src="assets/slides.png" height="30px">
                                 <h4><strong>Presentation</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/srijanpal07/autonomous-drone-for-dynamic-smoke-plume-tracking">
+                            <a href="https://github.com/srijanpal07/instant-ngp-based-3d-reconstruction-using-autonomus-drone">
                                 <image src="assets/github.png" height="50px">
                                 <h4><strong>Code</strong></h4>
                             </a>
@@ -105,9 +105,23 @@
                         </h3>
                         </center>
                     <!--Include the image capture and the taret detection video here-->
-                    <center>
-                        <image src="assets/algorithm.png" class="img-responsive" alt="overview" width="100%" height="100%" style="margin:auto;">
-                    </center>
+                    <div style="display: flex; justify-content: space-between; gap: 10px;">
+                        <div style="flex: 1; text-align: center;">
+                            <video width="100%" controls muted>
+                                <source src="assets/autonomous_drone_circling_target.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div style="margin-top: 5px;">Drone autonomousy circling target</div>
+                        </div>
+                        
+                        <div style="flex: 1; text-align: center;">
+                            <video width="100%" controls muted>
+                                <source src="assets/target_image_capture.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div style="margin-top: 5px;">Target Image captured by drone</div>
+                        </div>
+                    </div>
                     <p style="margin-top: 20px;  text-align: justify;">
                         Overview: 
                     </p>
@@ -117,39 +131,31 @@
                 <div class="col-md-8 col-md-offset-2">
                     <center>
                     <h3>
+                        <br><br>
                         Results
                     </h3>
                     </center>
-                    <!--
-                    <center>
-                        <video width="100%" height="100%" controls muted>
-                            <source src="assets/youtube_video.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </center> -->
+
                     <div style="display: flex; justify-content: space-between; gap: 10px;">
-                        <!-- First video and label -->
                         <div style="flex: 1; text-align: center;">
                             <video width="100%" controls muted>
                                 <source src="assets/3D_target_video1.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
-                            <div style="margin-top: 5px;">Label for Video 1</div>
+                            <div style="margin-top: 5px;">Reconstruction (from half circle)</div>
                         </div>
                         
-                        <!-- Second video and label -->
                         <div style="flex: 1; text-align: center;">
                             <video width="100%" controls muted>
-                                <source src="assets/3D_target_video2.mp4" type="video/mp4">
+                                <source src="assets/3D_target_video3.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
-                            <div style="margin-top: 5px;">Label for Video 2</div>
+                            <div style="margin-top: 5px;">Reconstruction (full 360)</div>
                         </div>
                     </div>
                     
-                    
-                    
                     <center>
+                        <br><br>
                         <p style="margin-top: 20px;  text-align: justify;">
                             Say something about the ourcomes!
                         </p>
